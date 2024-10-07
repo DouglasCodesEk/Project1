@@ -1,0 +1,21 @@
+{
+  "name": "revolutionary-portfolio",
+  "version": "1.0.0",
+  "description": "A revolutionary portfolio website",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "web3": "^1.5.2",
+    "ws": "^8.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
