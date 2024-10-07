@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8494ABCA2C93E49D00C2AC31 /* MediaKeypadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494ABC92C93E49D00C2AC31 /* MediaKeypadApp.swift */; };
+		8494ABCC2C93E49D00C2AC31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494ABCB2C93E49D00C2AC31 /* ContentView.swift */; };
+		8494ABCE2C93E49D00C2AC31 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494ABCD2C93E49D00C2AC31 /* Item.swift */; };
+		8494ABD02C93E49F00C2AC31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8494ABCF2C93E49F00C2AC31 /* Assets.xcassets */; };
+		8494ABD32C93E49F00C2AC31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8494ABD22C93E49F00C2AC31 /* Preview Assets.xcassets */; };
+		8494ABDE2C93E4A000C2AC31 /* MediaKeypadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494ABDD2C93E4A000C2AC31 /* MediaKeypadTests.swift */; };
+		8494ABE82C93E4A000C2AC31 /* MediaKeypadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494ABE72C93E4A000C2AC31 /* MediaKeypadUITests.swift */; };
+		8494ABEA2C93E4A000C2AC31 /* MediaKeypadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494ABE92C93E4A000C2AC31 /* MediaKeypadUITestsLaunchTests.swift */; };
+		8494AC012C93F15700C2AC31 /* word_api_handler.py in Resources */ = {isa = PBXBuildFile; fileRef = 8494AC002C93F15700C2AC31 /* word_api_handler.py */; };
+		8494AC032C93F48D00C2AC31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494AC022C93F48D00C2AC31 /* AppDelegate.swift */; };
+		8494AC052C93F5DE00C2AC31 /* MediaKeypadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494AC042C93F5DE00C2AC31 /* MediaKeypadApp.swift */; };
+		8494AC072C93F7D200C2AC31 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494AC062C93F7D200C2AC31 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8494ABDA2C93E4A000C2AC31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8494ABBE2C93E49D00C2AC31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8494ABC52C93E49D00C2AC31;
+			remoteInfo = MediaKeypad;
+		};
+		8494ABE42C93E4A000C2AC31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8494ABBE2C93E49D00C2AC31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8494ABC52C93E49D00C2AC31;
+			remoteInfo = MediaKeypad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8494ABC62C93E49D00C2AC31 /* MediaKeypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaKeypad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8494ABC92C93E49D00C2AC31 /* MediaKeypadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaKeypadApp.swift; sourceTree = "<group>"; };
+		8494ABCB2C93E49D00C2AC31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8494ABCD2C93E49D00C2AC31 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8494ABCF2C93E49F00C2AC31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8494ABD22C93E49F00C2AC31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8494ABD42C93E49F00C2AC31 /* MediaKeypad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MediaKeypad.entitlements; sourceTree = "<group>"; };
+		8494ABD92C93E4A000C2AC31 /* MediaKeypadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaKeypadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8494ABDD2C93E4A000C2AC31 /* MediaKeypadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaKeypadTests.swift; sourceTree = "<group>"; };
+		8494ABE32C93E4A000C2AC31 /* MediaKeypadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaKeypadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8494ABE72C93E4A000C2AC31 /* MediaKeypadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaKeypadUITests.swift; sourceTree = "<group>"; };
+		8494ABE92C93E4A000C2AC31 /* MediaKeypadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaKeypadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8494AC002C93F15700C2AC31 /* word_api_handler.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = word_api_handler.py; sourceTree = "<group>"; };
+		8494AC022C93F48D00C2AC31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8494AC042C93F5DE00C2AC31 /* MediaKeypadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaKeypadApp.swift; sourceTree = "<group>"; };
+		8494AC062C93F7D200C2AC31 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8494ABC32C93E49D00C2AC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494ABD62C93E4A000C2AC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494ABE02C93E4A000C2AC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8494ABBD2C93E49D00C2AC31 = {
+			isa = PBXGroup;
+			children = (
+				8494ABC82C93E49D00C2AC31 /* MediaKeypad */,
+				8494ABDC2C93E4A000C2AC31 /* MediaKeypadTests */,
+				8494ABE62C93E4A000C2AC31 /* MediaKeypadUITests */,
+				8494ABC72C93E49D00C2AC31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8494ABC72C93E49D00C2AC31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8494ABC62C93E49D00C2AC31 /* MediaKeypad.app */,
+				8494ABD92C93E4A000C2AC31 /* MediaKeypadTests.xctest */,
+				8494ABE32C93E4A000C2AC31 /* MediaKeypadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8494ABC82C93E49D00C2AC31 /* MediaKeypad */ = {
+			isa = PBXGroup;
+			children = (
+				8494ABFF2C93F01800C2AC31 /* Models */,
+				8494ABFD2C93EFE000C2AC31 /* Scripts */,
+				8494ABFC2C93EFDC00C2AC31 /* Resources */,
+				8494ABFB2C93EFD100C2AC31 /* Utilities */,
+				8494ABC92C93E49D00C2AC31 /* MediaKeypadApp.swift */,
+				8494ABFA2C93EFBF00C2AC31 /* View */,
+				8494ABF92C93EFA600C2AC31 /* App */,
+				8494ABCB2C93E49D00C2AC31 /* ContentView.swift */,
+				8494ABCD2C93E49D00C2AC31 /* Item.swift */,
+				8494ABCF2C93E49F00C2AC31 /* Assets.xcassets */,
+				8494ABD42C93E49F00C2AC31 /* MediaKeypad.entitlements */,
+				8494ABD12C93E49F00C2AC31 /* Preview Content */,
+			);
+			path = MediaKeypad;
+			sourceTree = "<group>";
+		};
+		8494ABD12C93E49F00C2AC31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8494ABD22C93E49F00C2AC31 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8494ABDC2C93E4A000C2AC31 /* MediaKeypadTests */ = {
+			isa = PBXGroup;
+			children = (
+				8494ABDD2C93E4A000C2AC31 /* MediaKeypadTests.swift */,
+			);
+			path = MediaKeypadTests;
+			sourceTree = "<group>";
+		};
+		8494ABE62C93E4A000C2AC31 /* MediaKeypadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8494ABE72C93E4A000C2AC31 /* MediaKeypadUITests.swift */,
+				8494ABE92C93E4A000C2AC31 /* MediaKeypadUITestsLaunchTests.swift */,
+			);
+			path = MediaKeypadUITests;
+			sourceTree = "<group>";
+		};
+		8494ABF92C93EFA600C2AC31 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8494AC022C93F48D00C2AC31 /* AppDelegate.swift */,
+				8494AC042C93F5DE00C2AC31 /* MediaKeypadApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8494ABFA2C93EFBF00C2AC31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8494AC062C93F7D200C2AC31 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8494ABFB2C93EFD100C2AC31 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8494ABFC2C93EFDC00C2AC31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8494ABFD2C93EFE000C2AC31 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				8494AC002C93F15700C2AC31 /* word_api_handler.py */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		8494ABFF2C93F01800C2AC31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8494ABC52C93E49D00C2AC31 /* MediaKeypad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8494ABED2C93E4A000C2AC31 /* Build configuration list for PBXNativeTarget "MediaKeypad" */;
+			buildPhases = (
+				8494ABC22C93E49D00C2AC31 /* Sources */,
+				8494ABC32C93E49D00C2AC31 /* Frameworks */,
+				8494ABC42C93E49D00C2AC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaKeypad;
+			productName = MediaKeypad;
+			productReference = 8494ABC62C93E49D00C2AC31 /* MediaKeypad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8494ABD82C93E4A000C2AC31 /* MediaKeypadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8494ABF02C93E4A000C2AC31 /* Build configuration list for PBXNativeTarget "MediaKeypadTests" */;
+			buildPhases = (
+				8494ABD52C93E4A000C2AC31 /* Sources */,
+				8494ABD62C93E4A000C2AC31 /* Frameworks */,
+				8494ABD72C93E4A000C2AC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8494ABDB2C93E4A000C2AC31 /* PBXTargetDependency */,
+			);
+			name = MediaKeypadTests;
+			productName = MediaKeypadTests;
+			productReference = 8494ABD92C93E4A000C2AC31 /* MediaKeypadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8494ABE22C93E4A000C2AC31 /* MediaKeypadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8494ABF32C93E4A000C2AC31 /* Build configuration list for PBXNativeTarget "MediaKeypadUITests" */;
+			buildPhases = (
+				8494ABDF2C93E4A000C2AC31 /* Sources */,
+				8494ABE02C93E4A000C2AC31 /* Frameworks */,
+				8494ABE12C93E4A000C2AC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8494ABE52C93E4A000C2AC31 /* PBXTargetDependency */,
+			);
+			name = MediaKeypadUITests;
+			productName = MediaKeypadUITests;
+			productReference = 8494ABE32C93E4A000C2AC31 /* MediaKeypadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8494ABBE2C93E49D00C2AC31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8494ABC52C93E49D00C2AC31 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8494ABD82C93E4A000C2AC31 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8494ABC52C93E49D00C2AC31;
+					};
+					8494ABE22C93E4A000C2AC31 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8494ABC52C93E49D00C2AC31;
+					};
+				};
+			};
+			buildConfigurationList = 8494ABC12C93E49D00C2AC31 /* Build configuration list for PBXProject "MediaKeypad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8494ABBD2C93E49D00C2AC31;
+			packageReferences = (
+				8494ABF82C93ED5900C2AC31 /* XCRemoteSwiftPackageReference "HotKey" */,
+			);
+			productRefGroup = 8494ABC72C93E49D00C2AC31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8494ABC52C93E49D00C2AC31 /* MediaKeypad */,
+				8494ABD82C93E4A000C2AC31 /* MediaKeypadTests */,
+				8494ABE22C93E4A000C2AC31 /* MediaKeypadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8494ABC42C93E49D00C2AC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8494ABD32C93E49F00C2AC31 /* Preview Assets.xcassets in Resources */,
+				8494AC012C93F15700C2AC31 /* word_api_handler.py in Resources */,
+				8494ABD02C93E49F00C2AC31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494ABD72C93E4A000C2AC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494ABE12C93E4A000C2AC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8494ABC22C93E49D00C2AC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8494ABCC2C93E49D00C2AC31 /* ContentView.swift in Sources */,
+				8494ABCE2C93E49D00C2AC31 /* Item.swift in Sources */,
+				8494AC032C93F48D00C2AC31 /* AppDelegate.swift in Sources */,
+				8494AC072C93F7D200C2AC31 /* SettingsView.swift in Sources */,
+				8494AC052C93F5DE00C2AC31 /* MediaKeypadApp.swift in Sources */,
+				8494ABCA2C93E49D00C2AC31 /* MediaKeypadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494ABD52C93E4A000C2AC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8494ABDE2C93E4A000C2AC31 /* MediaKeypadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494ABDF2C93E4A000C2AC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8494ABE82C93E4A000C2AC31 /* MediaKeypadUITests.swift in Sources */,
+				8494ABEA2C93E4A000C2AC31 /* MediaKeypadUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8494ABDB2C93E4A000C2AC31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8494ABC52C93E49D00C2AC31 /* MediaKeypad */;
+			targetProxy = 8494ABDA2C93E4A000C2AC31 /* PBXContainerItemProxy */;
+		};
+		8494ABE52C93E4A000C2AC31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8494ABC52C93E49D00C2AC31 /* MediaKeypad */;
+			targetProxy = 8494ABE42C93E4A000C2AC31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8494ABEB2C93E4A000C2AC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8494ABEC2C93E4A000C2AC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8494ABEE2C93E4A000C2AC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MediaKeypad/MediaKeypad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MediaKeypad/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swedishmusicfactory.MediaKeypad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8494ABEF2C93E4A000C2AC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MediaKeypad/MediaKeypad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MediaKeypad/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swedishmusicfactory.MediaKeypad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8494ABF12C93E4A000C2AC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swedishmusicfactory.MediaKeypadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaKeypad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MediaKeypad";
+			};
+			name = Debug;
+		};
+		8494ABF22C93E4A000C2AC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swedishmusicfactory.MediaKeypadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaKeypad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MediaKeypad";
+			};
+			name = Release;
+		};
+		8494ABF42C93E4A000C2AC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swedishmusicfactory.MediaKeypadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MediaKeypad;
+			};
+			name = Debug;
+		};
+		8494ABF52C93E4A000C2AC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swedishmusicfactory.MediaKeypadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MediaKeypad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8494ABC12C93E49D00C2AC31 /* Build configuration list for PBXProject "MediaKeypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8494ABEB2C93E4A000C2AC31 /* Debug */,
+				8494ABEC2C93E4A000C2AC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8494ABED2C93E4A000C2AC31 /* Build configuration list for PBXNativeTarget "MediaKeypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8494ABEE2C93E4A000C2AC31 /* Debug */,
+				8494ABEF2C93E4A000C2AC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8494ABF02C93E4A000C2AC31 /* Build configuration list for PBXNativeTarget "MediaKeypadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8494ABF12C93E4A000C2AC31 /* Debug */,
+				8494ABF22C93E4A000C2AC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8494ABF32C93E4A000C2AC31 /* Build configuration list for PBXNativeTarget "MediaKeypadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8494ABF42C93E4A000C2AC31 /* Debug */,
+				8494ABF52C93E4A000C2AC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8494ABF82C93ED5900C2AC31 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 8494ABBE2C93E49D00C2AC31 /* Project object */;
+}
