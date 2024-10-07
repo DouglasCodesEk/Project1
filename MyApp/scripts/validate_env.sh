@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Define the base project path
 BASE_PATH="/Users/admin/Projects/MyApp"
 
 # Load environment variables from the .env file using absolute path
