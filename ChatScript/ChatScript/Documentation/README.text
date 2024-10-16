@@ -1,0 +1,64 @@
+# ChatScripts
+
+ChatScripts is a macOS application that uses AI to generate and execute AppleScripts based on natural language input.
+
+## Features
+
+- Generate AppleScripts using AI (OpenAI or Anthropic)
+- Execute generated scripts directly from the app
+- Save and manage scripts
+- Custom variable management
+- Supports the latest features of Xcode 15 and Swift 5.7
+- User-friendly interface with SwiftUI
+
+## System Requirements
+
+- macOS 13.0 or later
+- Xcode 15 or later
+- Internet connection for AI script generation
+
+## Installation
+
+1. Clone the repository or download the ZIP file.
+2. Open `ChatScript.xcodeproj` in Xcode 15.
+3. Build and run the app on your Mac.
+
+## Getting Started
+
+1. Open ChatScripts.
+2. Go to Settings (CMD + ,) and enter your API keys for the AI services you want to use.
+   - **OpenAI API Key:** Obtain from [OpenAI API](https://platform.openai.com/account/api-keys)
+   - **Anthropic API Key:** Obtain from [Anthropic](https://www.anthropic.com)
+3. In the main window, type your desired task in natural language.
+4. Click "Generate Script" to create an AppleScript.
+5. Review the generated script.
+6. Click "Execute Script" to run the AppleScript.
+7. View the execution results.
+
+## Obtaining API Keys
+
+- **OpenAI API:**
+  - Sign up at [OpenAI API](https://platform.openai.com/signup)
+  - Navigate to your account and generate a new API key.
+- **Anthropic API:**
+  - Visit [Anthropic](https://www.anthropic.com)
+  - Follow their instructions to obtain an API key.
+
+## Troubleshooting
+
+- **No API Key Error:**
+  - Ensure you've entered a valid API key in the Settings.
+- **Script Execution Fails:**
+  - Check the script for correct syntax.
+  - Ensure the script has the necessary permissions.
+- **App Crashes or Freezes:**
+  - Restart the app.
+  - Check for updates or report the issue.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+[MIT License](LICENSE)
